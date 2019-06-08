@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "KorompiliasPortfolio",
-    "currentPage": "index.html",
+    "currentPage": "news.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -11,7 +11,7 @@
         "successColor": "#d7ff00",
         "infoColor": "#d434bf",
         "warningColor": "#001646",
-        "dangerColor": "#0079ff",
+        "dangerColor": "#ff3366",
         "mainFont": "Rubik",
         "display1Font": "Varela Round",
         "display1Size": "4",
@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#33ffe7",
         "#04f9b5",
         "#f00bb1",
         "#210036",
         "#38015b",
         "#d434bf",
-        "#0079ff"
+        "#0079ff",
+        "#173e71"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,7 +46,7 @@
         "url": "https://fonts.googleapis.com/css?family=Varela+Round:400"
       }
     ],
-    "uniqCompNum": 7,
+    "uniqCompNum": 5,
     "versionPublish": "4.10.1",
     "screenshot": "screenshot.png",
     "witsec-white-label": "on",
@@ -2843,11 +2843,11 @@
           "_name": "image3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"78\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#0079ff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" checked condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#f00bb1\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/atmos-architecture-1.svg\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "rsKo0cUvK7",
+          "_anchor": "image3-6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image3-6"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3372,7 +3372,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#38015b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b><i>Vasileios also signs his new work with the pen name - Adam Apricot.</i></b></p><p><b><i>\"As we grow up our ego keeps get in our way. In order to dissociate talent and authentic expression with Self Awareness and save my sanity, I chose a more organic and universal name to accompany my creative fruitions. What will be signed by Adam will be work assosiated with humanity as a whole, so putting my birth name out there is an irrelevant factor which leads most creative people towards unnecesary vanity or endless stress. I would suggest everyone to have a second name for their work, especially when it turns to become an art.\"</i></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#38015b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b><i>Vasileios also signs his new work with the pen name - Adam Apricot.</i></b></p><p><b><i>\"As we grow up our ego keeps getting in our way. In order to dissociate talent and authentic expression with Self Awareness and save my sanity, I chose a more organic and universal name to accompany my creative fruitions. What will be signed by Adam will be work assosiated with humanity as a whole, so putting my birth name out there is an irrelevant factor which leads most creative people towards unnecesary vanity or endless stress. I would suggest everyone to have a second name for their work, especially when it turns to become an art.\"</i></b></p></div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-k",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -3557,7 +3557,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#38015b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b><i>Vasileios also signs his new work with the pen name - Adam Apricot.</i></b></p><p><b><i>\"As we grow up our ego keeps get in our way. In order to dissociate talent and authentic expression with Self Awareness and save my sanity, I chose a more organic and universal name to accompany my creative fruitions. What will be signed by Adam will be work assosiated with humanity as a whole, so putting my birth name out there is an irrelevant factor which leads most creative people towards unnecesary vanity or endless stress. I would suggest everyone to have a second name for their work, especially when it turns to become an art.\"</i></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#38015b\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b><i>Vasileios also signs his new work with the pen name - Adam Apricot.</i></b></p><p><b><i>\"As we grow up our ego keeps getting in our way. In order to dissociate talent and authentic expression with Self Awareness and save my sanity, I chose a more organic and universal name to accompany my creative fruitions. What will be signed by Adam will be work assosiated with humanity as a whole, so putting my birth name out there is an irrelevant factor which leads most creative people towards unnecesary vanity or endless stress. I would suggest everyone to have a second name for their work, especially when it turns to become an art.\"</i></b></p></div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-6",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
